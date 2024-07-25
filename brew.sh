@@ -5,6 +5,7 @@
 brew update
 
 brew install --cask \
+    bitwarden \
     obsidian \
     iterm2 \
     keka \
