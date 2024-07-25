@@ -2,7 +2,10 @@
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+brew update
+
 brew install --cask \
+    obsidian \
     iterm2 \
     keka \
     appcleaner \
@@ -12,11 +15,8 @@ brew install --cask \
     spotify \
     google-chrome \
     blender \
-    notion \
     discord \
     zoom \
-
-brew install --cask --appdir=/Applications/dev \
     vscodium \
     sublime-text \
     tunnelblick \
@@ -25,8 +25,6 @@ brew install --cask --appdir=/Applications/dev \
     cyberduck \
     docker \
     lens \
-
-brew install --cask --appdir=/Applications/brew \
     dropbox \
     caffeine \
     coconutbattery \
@@ -45,12 +43,13 @@ brew install --cask --appdir=/Applications/brew \
     unetbootin \
     onyx \
     firefox \
-    chromium \
     raindropio \
     lulu \
     handbrake \
     zerotier-one \
     thunderbird \
+    # aethersx2 \
+    # tuxera-ntfs \
 
 brew install --appdir=/Applications/games chocolate-doom
 brew install --cask --appdir=/Applications/games \
@@ -58,17 +57,12 @@ brew install --cask --appdir=/Applications/games \
     nvidia-geforce-now \
     steam \
     openra \
-
-# brew install --cask \
-#     aethersx2 \
-#     tuxera-ntfs \
+    # whisky \
 
 brew tap teamookla/speedtest
-brew update
-# Example how to remove conflicting or old versions using brew
+brew install speedtest --force
 # brew uninstall speedtest --force
 # brew uninstall speedtest-cli --force
-brew install speedtest --force
 
 brew install mas 
 mas install 885120167
