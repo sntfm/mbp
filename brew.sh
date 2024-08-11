@@ -49,7 +49,6 @@ brew install --cask \
     handbrake \
     zerotier-one \
     thunderbird \
-    # aethersx2 \
     # tuxera-ntfs \
 
 brew install --appdir=/Applications/games chocolate-doom
@@ -59,6 +58,7 @@ brew install --cask --appdir=/Applications/games \
     steam \
     openra \
     # whisky \
+    # https://pcsx2.net
 
 brew tap teamookla/speedtest
 brew install speedtest --force
