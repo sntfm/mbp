@@ -5,6 +5,7 @@
 brew update
 
 brew install --cask \
+    libreoffice \
     bitwarden \
     obsidian \
     iterm2 \
@@ -66,7 +67,6 @@ brew install speedtest --force
 # brew uninstall speedtest-cli --force
 
 brew install mas 
-mas install 885120167
 mas install 1120099014
 mas install 747648890
 mas install 1352778147
