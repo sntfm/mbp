@@ -55,8 +55,8 @@ brew install --cask --appdir=/Applications/games \
     openemu \
     nvidia-geforce-now \
     steam \
-    openra \
-    # whisky \
+    whisky \
+    # openra \
     # https://pcsx2.net
 
 brew tap teamookla/speedtest
