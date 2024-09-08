@@ -48,8 +48,6 @@ brew install --cask \
     raindropio \
     lulu \
     handbrake \
-    zerotier-one \
-    thunderbird \
     # tuxera-ntfs \
 
 brew install --appdir=/Applications/games chocolate-doom
