@@ -59,8 +59,8 @@ brew install --cask --appdir=/Applications/games \
     # openra \
     # https://pcsx2.net
 
-brew tap teamookla/speedtest
-brew install speedtest --force
+# brew tap teamookla/speedtest
+# brew install speedtest --force
 # brew uninstall speedtest --force
 # brew uninstall speedtest-cli --force
 
