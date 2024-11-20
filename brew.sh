@@ -21,6 +21,8 @@ brew install --cask \
     zoom \
     slack \
     visual-studio-code \
+    clion \
+    pycharm \
     sublime-text \
     tunnelblick \
     postman \
