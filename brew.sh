@@ -4,6 +4,7 @@
 
 brew update
 
+brew install htop
 brew install --cask \
     libreoffice \
     bitwarden \
