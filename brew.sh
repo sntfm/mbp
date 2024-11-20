@@ -19,7 +19,8 @@ brew install --cask \
     blender \
     discord \
     zoom \
-    vscodium \
+    slack \
+    visual-studio-code \
     sublime-text \
     tunnelblick \
     postman \
