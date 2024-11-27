@@ -62,6 +62,7 @@ brew install --cask --appdir=/Applications/games \
     whisky \
     # openra \
     # https://pcsx2.net
+    # ryujinx-emulator.com
 
 # brew tap teamookla/speedtest
 # brew install speedtest --force
