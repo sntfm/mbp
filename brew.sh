@@ -52,6 +52,7 @@ brew install --cask \
     raindropio \
     lulu \
     handbrake \
+    medis \
     # tuxera-ntfs \
 
 brew install --appdir=/Applications/games chocolate-doom
