@@ -31,7 +31,6 @@ brew install --cask \
     cyberduck \
     docker \
     lens \
-    dropbox \
     caffeine \
     coconutbattery \
     obs \
