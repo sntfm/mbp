@@ -53,6 +53,11 @@ brew install --cask \
     handbrake \
     # tuxera-ntfs \
 
+brew install --cask wine-stable
+brew upgrade
+brew uninstall --force --zap wineskin
+brew install --cask --no-quarantine gcenx/wine/kegworks
+
 brew install --appdir=/Applications/games chocolate-doom
 brew install --cask --appdir=/Applications/games \
     openemu \
@@ -62,6 +67,7 @@ brew install --cask --appdir=/Applications/games \
     # openra \
     # https://pcsx2.net
     # ryujinx-emulator.com
+    # https://rpcs3.net
 
 # brew tap teamookla/speedtest
 # brew install speedtest --force
