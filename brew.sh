@@ -5,7 +5,7 @@
 brew update
 
 brew install htop
-brew install --cask \
+brew install --cask --no-quarantine\
     libreoffice \
     bitwarden \
     obsidian \
