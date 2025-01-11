@@ -52,6 +52,7 @@ brew install --cask --no-quarantine\
     lulu \
     handbrake \
     # tuxera-ntfs \
+    sdformatter \
 
 brew install --cask wine-stable
 brew upgrade
